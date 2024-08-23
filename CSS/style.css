@@ -45,8 +45,6 @@ button{
     height: calc(100%/10);
     flex-basis: calc(100%/10);
     border: 1px solid white;
-    cursor: pointer;
-   
 }
 
 

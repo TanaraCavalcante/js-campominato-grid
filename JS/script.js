@@ -9,4 +9,20 @@ Rimuoviamo le celle che abbiamo inserito nell'HTML in modo da generarle tramite 
 #MILESTONE 3
 In ogni cella, deve comparire il numero corrispondente, in ordine da 1 a 100;
 #MILESTONE 4
-Al click sulla cella, stampiamo il numero della cella cliccata in console, poi coloriamo la cella d'azzurro! /*
+Al click sulla cella, stampiamo il numero della cella cliccata in console, poi coloriamo la cella d'azzurro! */
+
+//TODO    Ricupera gli ellementi dal DOM
+
+
+//TODO    Funzioni
+//Creare le celle
+
+
+//TODO  Elaborazione
+//Creare l'evento per apparire la cella
+
+//Creare i numeri nelle celle
+
+//Fare apparire i numeri nella cella
+
+//creare un evento per colorare e stampare in console il numero del quadrato
