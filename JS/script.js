@@ -31,7 +31,6 @@ function randomNumber(min, max) {
 const rolws = 10;
 const cols = 10;
 const totCells = rolws * cols;
-console.log(totCells);
 
 //TODO  Elaborazione
 //Creare l'evento per apparire la cella
