@@ -42,7 +42,10 @@ btnPlay.addEventListener('click', function (){
     //Stampo
     grid.appendChild(square); 
    }
-   
-})
 
 //creare un evento per colorare e stampare in console il numero del quadrato
+cell.addEventListener('click', function(){
+   cell.className = 'clicked';
+})
+
+})
