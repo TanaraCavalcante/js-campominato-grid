@@ -39,16 +39,15 @@ btnPlay.addEventListener('click', function (){
    for (let i = 0; i < totCells; i++){
     //Creo la cella con i numeri
     const square = createCell(i + 1);
-    
+
     //creare un evento per colorare 
     square.addEventListener('click', function(){
     square.classList.add('clicked');
 
- })
+    //stampiamo il numero della cella cliccata in console
+    console.log(i + 1);
+    })
     //Stampo
     grid.appendChild(square); 
    }
-
-
-
 })
