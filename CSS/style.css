@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 900px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -22,15 +22,31 @@ body{
 
 header{
     height: 80px;
+    justify-content: space-between;
 }
 
 footer{
-    height: 50px;
+    height: 60px;
 }
 
 button{
     padding: 0 20px;
 }
 
+#grid{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: calc(100%/10);
+    flex-basis: calc(100%/10);
+    border: 1px solid white;
+    cursor: pointer;
+   
+}
 
 
