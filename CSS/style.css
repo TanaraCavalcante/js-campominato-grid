@@ -45,6 +45,9 @@ button{
     height: calc(100%/10);
     flex-basis: calc(100%/10);
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
