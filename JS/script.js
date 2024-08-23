@@ -12,19 +12,37 @@ In ogni cella, deve comparire il numero corrispondente, in ordine da 1 a 100;
 Al click sulla cella, stampiamo il numero della cella cliccata in console, poi coloriamo la cella d'azzurro! */
 
 //TODO    Ricupera gli ellementi dal DOM
-const btnGenerate = document.getElementById('play');
+const btnPlay = document.getElementById('play');
 const grid = document.getElementById('grid')
 
 //TODO    Funzioni
 //Creare le celle
 function createCell(){
-    const square = document.createElement('div');
-    square.className = 'square';
-    return square;
+    const cell = document.createElement('div');
+    cell.className = 'square';
+    console.log(cell)
+    return cell;
 }
+function randomNumber(min, max){
+    
+}
+
+//Dimensioni della cella
+const rolws = 10;
+const cols = 10;
+const totCells = rolws * cols;
+console.log(totCells);
 
 //TODO  Elaborazione
 //Creare l'evento per apparire la cella
+btnPlay.addEventListener('click', function (){
+   for (let i = 0; i < totCells; i++){
+    //Creo
+    const square = createCell();
+    //Stampo
+    grid.appendChild(square); 
+   }
+})
 
 //Creare i numeri nelle celle
 
