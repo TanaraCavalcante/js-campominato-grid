@@ -12,11 +12,16 @@ In ogni cella, deve comparire il numero corrispondente, in ordine da 1 a 100;
 Al click sulla cella, stampiamo il numero della cella cliccata in console, poi coloriamo la cella d'azzurro! */
 
 //TODO    Ricupera gli ellementi dal DOM
-
+const btnGenerate = document.getElementById('play');
+const grid = document.getElementById('grid')
 
 //TODO    Funzioni
 //Creare le celle
-
+function createCell(){
+    const square = document.createElement('div');
+    square.className = 'square';
+    return square;
+}
 
 //TODO  Elaborazione
 //Creare l'evento per apparire la cella
