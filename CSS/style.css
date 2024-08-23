@@ -41,7 +41,7 @@ button{
     flex-wrap: wrap;
 }
 
-.cell.square{
+.square{
     height: calc(100%/10);
     flex-basis: calc(100%/10);
     border: 1px solid white;

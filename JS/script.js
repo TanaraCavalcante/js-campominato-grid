@@ -17,14 +17,14 @@ const grid = document.getElementById('grid')
 
 //TODO    Funzioni
 //Creare le celle
-function createCell(){
+function createCell(content){
     const cell = document.createElement('div');
     cell.className = 'square';
-    console.log(cell)
+    cell.append(content);
     return cell;
 }
-function randomNumber(min, max){
-    
+
+function randomNumber(min, max) {
 }
 
 //Dimensioni della cella
@@ -37,15 +37,12 @@ console.log(totCells);
 //Creare l'evento per apparire la cella
 btnPlay.addEventListener('click', function (){
    for (let i = 0; i < totCells; i++){
-    //Creo
-    const square = createCell();
+    //Creo la cella con i numeri
+    const square = createCell(i + 1);
     //Stampo
     grid.appendChild(square); 
    }
+   
 })
-
-//Creare i numeri nelle celle
-
-//Fare apparire i numeri nella cella
 
 //creare un evento per colorare e stampare in console il numero del quadrato
