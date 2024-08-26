@@ -24,9 +24,6 @@ function createCell(content){
     return cell;
 }
 
-function randomNumber(min, max) {
-}
-
 //Dimensioni della cella
 const rolws = 10;
 const cols = 10;
@@ -35,6 +32,12 @@ const totCells = rolws * cols;
 //TODO  Elaborazione
 //Creare l'evento per apparire la cella
 btnPlay.addEventListener('click', function (){
+    //Svuoto la griglia
+    grid.innerHtml = '';
+
+    //cambio il testo al btn
+    btnPlay.innerText = 'Ricomincia'
+    
    for (let i = 0; i < totCells; i++){
     //Creo la cella con i numeri
     const square = createCell(i + 1);
